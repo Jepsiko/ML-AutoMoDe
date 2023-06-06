@@ -22,14 +22,14 @@ INPUT_NAMES = [
     'Right',
     'Light',
     'Color',
-    '#Obstacles',
-    'Anytime',
-    'Endtime',
-    '#Nests',
-    '#Food-sources',
-    '#Colored-areas',
-    '#Aggregation-areas',
-    '#Distraction-areas'
+    # '#Obstacles',
+    # 'Anytime',
+    # 'Endtime',
+    # '#Nests',
+    # '#Food-sources',
+    # '#Colored-areas',
+    # '#Aggregation-areas',
+    # '#Distraction-areas',
 ]
 
 
