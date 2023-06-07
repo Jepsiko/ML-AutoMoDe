@@ -14,19 +14,23 @@ The script `MissionParser.py` allows us to parse mission descriptions (in the `a
 - Foraging ($0 | 1$)
 - Homing ($0 | 1$)
 - Aggregation-XOR ($0 | 1$)
+
 *General parameters*
 - Duration ($0 \rightarrow 180 \Rightarrow 0 \rightarrow 1$)
 - #Robots ($0 \rightarrow 20 \Rightarrow 0 \rightarrow 1$)
 - Light ($0 | 1$)
-- Color of home/nest (black $\rightarrow$ white $\Rightarrow 0 \rightarrow 1$)
+- Color of home/nest (black $|$ white $\Rightarrow 0 | 1$)
+
 *Arena shape*
 - Triangle ($0 | 1$)
 - Square ($0 | 1$)
 - Hexagon ($0 | 1$)
+
 *Robots initial position*
 - Uniform ($0 | 1$)
 - One-side ($0 | 1$)
 - Not-on-colored-areas ($0 | 1$)
+
 *Robots side if one-side*
 - Left ($0 | 1$)
 - Right ($0 | 1$)
