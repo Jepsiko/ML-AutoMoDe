@@ -11,29 +11,29 @@ For this step, we use the `MissionGenerator` from this [repo](https://github.com
 The script `MissionParser.py` allows us to parse mission descriptions (in the `all_missions.txt` file) into inputs for the neural network (`input.txt`). The input is an array of values in $[0, 1]$ that is detailed below.
 
 *Mission type*
-- Foraging ($0 | 1$)
-- Homing ($0 | 1$)
-- Aggregation-XOR ($0 | 1$)
+- Foraging $(0 | 1)$
+- Homing $(0 | 1)$
+- Aggregation-XOR $(0 | 1)$
 
 *General parameters*
-- Duration ($0 \rightarrow 180 \Rightarrow 0 \rightarrow 1$)
-- #Robots ($0 \rightarrow 20 \Rightarrow 0 \rightarrow 1$)
-- Light ($0 | 1$)
-- Color of home/nest (black $|$ white $\Rightarrow 0 | 1$)
+- Duration $(0 \rightarrow 180 \Rightarrow 0 \rightarrow 1)$
+- #Robots $(0 \rightarrow 20 \Rightarrow 0 \rightarrow 1)$
+- Light $(0 | 1)$
+- Color of home/nest $(\text{black} | \text{white} \Rightarrow 0 | 1)$
 
 *Arena shape*
-- Triangle ($0 | 1$)
-- Square ($0 | 1$)
-- Hexagon ($0 | 1$)
+- Triangle $(0 | 1)$
+- Square $(0 | 1)$
+- Hexagon $(0 | 1)$
 
 *Robots initial position*
-- Uniform ($0 | 1$)
-- One-side ($0 | 1$)
-- Not-on-colored-areas ($0 | 1$)
+- Uniform $(0 | 1)$
+- One-side $(0 | 1)$
+- Not-on-colored-areas $(0 | 1)$
 
 *Robots side if one-side*
-- Left ($0 | 1$)
-- Right ($0 | 1$)
+- Left $(0 | 1)$
+- Right $(0 | 1)$
 
 
 ### Step 3 - Run AutoMoDe-Chocolate on the missions
