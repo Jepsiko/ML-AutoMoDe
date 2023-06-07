@@ -129,7 +129,7 @@ def parse_color(inputs, params):
         color = params['--colnest'][0]
     else:
         raise ValueError
-    if color == 'black':
+    if color == 'white':
         inputs['Color'] = 1
 
 
